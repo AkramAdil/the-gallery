@@ -1,0 +1,46 @@
+.artwork-info .title {
+    font-size: 2.1em;
+    font-weight: bold;
+}
+.artwork-info .detalis {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.artwork-info .detalis .artwork-image {
+    width: 45%;
+}
+.artwork-info .detalis .data {
+    padding: 15px;
+    width: 45%;
+}
+.artwork-info .detalis .data .description {
+    font-size: 1em;
+    margin-bottom: 50px;
+}
+.artwork-info .detalis img {
+    width: 100%;
+}
+
+.artwork-info .detalis .data table {
+    border-collapse: collapse; 
+    width: 100%;
+
+}
+.artwork-info .detalis .data table tbody{
+    border-top: 1px #000 solid;
+}
+tr, th {
+    padding: 20px 15px;
+}
+td {
+    color: #636363;
+}
+.artwork-info .detalis .data .audio-source {
+    margin-top: 30px;
+}
+.artwork-info .detalis .data .audio-source audio {
+    width: 100%;
+    margin-top: 10px;
+}
